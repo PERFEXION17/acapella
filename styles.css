@@ -140,7 +140,7 @@ main {
 .box {
     width: 80%;
     margin: 1rem auto;
-    background-color: var(--dark);
+    background-color: var(--secondary);
     animation: clip linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
