@@ -102,7 +102,7 @@ main {
 
 .hero {
     position: relative;
-    margin: 2rem auto;
+    padding: 2rem;
     width: 29rem;
     height: 29rem;
     background-image: url(assets/hero.jpg);
