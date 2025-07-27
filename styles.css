@@ -2,10 +2,12 @@
 
 :root {
     --main: #fff;
-    --secondary: #f7f7f7;
-    --dark: #1a1a1a;
+    --secondary: linear-gradient(135deg, #8A56F7 0%, #FF82A9 100%);
+    --gradient: linear-gradient(135deg, #7C4DFF 0%, #FF80AB 100%);
+    --gradient_2: linear-gradient(135deg, #A173FF 0%, #FFB7C5 100%);
+    --dark: #000;
     --gray: #555555;
-    --accent: #CBA135;
+    --accent: #ffcf55;
     --font_1: "DM Serif Display", serif;
     --font_2: "Quicksand", sans-serif;
     --max-width: 1090px;
@@ -24,7 +26,7 @@ html {
 
 body {
     color: var(--dark);
-    background-color: var(--secondary);
+    background: var(--secondary);
     font-family: var(--font_1);
 }
 
@@ -46,7 +48,7 @@ nav {
     height: 5rem;
     padding: 0 1rem;
     box-shadow: -1px 1px 5px var(--dark);
-    background-color: var(--secondary);
+    background-image: var(--gradient);
     z-index: 1;
 }
 
@@ -140,7 +142,7 @@ main {
 .box {
     width: 80%;
     margin: 1rem auto;
-    background-color: var(--secondary);
+    background-image: var(--gradient);
     animation: clip linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
@@ -168,7 +170,7 @@ main {
 
 .box_vm {
     width: 100%;
-    background-color: var(--dark);
+    background-image: var(--gradient_2);
     color: var(--secondary);
     animation: up linear;
     animation-range: entry 0 cover 40%;
